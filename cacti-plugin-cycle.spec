@@ -6,12 +6,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Automatically cycle through cacti graphs
 Name:		cacti-plugin-%{plugin}
-Version:	2.0
+Version:	2.3
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}-1.tgz
-# Source0-md5:	a114638444967822e498ca28a81119e9
+# Source0-md5:	0ced9905198288b142ed27bb83251264
 URL:		http://docs.cacti.net/plugin:cycle
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.554
