@@ -7,7 +7,7 @@
 Summary:	Automatically cycle through cacti graphs
 Name:		cacti-plugin-%{plugin}
 Version:	2.3
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}-1.tgz
@@ -17,10 +17,10 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.554
 Requires:	cacti >= 0.8.7e-8
 Requires:	cacti(pia) >= 2.0
-Requires:	php-common >= 4:%{php_min_version}
-Requires:	php-date
-Requires:	php-json
-Requires:	php-pcre
+Requires:	php(core) >= %{php_min_version}
+Requires:	php(date)
+Requires:	php(json)
+Requires:	php(pcre)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
