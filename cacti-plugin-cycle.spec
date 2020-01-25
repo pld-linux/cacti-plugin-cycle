@@ -3,7 +3,6 @@
 # - bundles jquery-autocomplete  1.1
 %define		plugin	cycle
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Automatically cycle through cacti graphs
 Name:		cacti-plugin-%{plugin}
 Version:	2.3
